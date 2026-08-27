@@ -27,4 +27,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/menser0425/froxvc:latest
+          tags: |
+            ghcr.io/menser0425/froxvc:latest
+            ghcr.io/menser0425/froxvc:v2
